@@ -47,9 +47,9 @@ More details are shown in Usage.
 
 ## Usage
 #### Basic command
-'''
+```
 python predict_main.py [options]
-'''
+```
 <br>
 - **Mandatory parameters**
 
@@ -84,9 +84,9 @@ The place you want to output the result and log file. The input should be a path
 <br>
 
 ## Example
-'''
+```
 python predict_main.py --t1 low --t2 low -i example/example.fasta -o example/
-'''
+```
 
 <br>
 
