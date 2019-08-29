@@ -37,7 +37,7 @@ Just pull or download these files to your computers or servers.
 ### Dependency
 Python3
 <br>
-Python package: tensforflow; numpy
+Python package: tensforflow; numpy.
 <br>
 More details are shown in Usage.
 
@@ -84,7 +84,9 @@ The place you want to output the result and log file. The input should be a path
 <br>
 
 ## Example
+'''
 python predict_main.py --t1 low --t2 low -i example/example.fasta -o example/
+'''
 
 <br>
 
