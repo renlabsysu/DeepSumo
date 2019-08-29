@@ -51,7 +51,7 @@ More details are shown in Usage.
 python predict_main.py [options]
 ```
 <br>
-- **Mandatory parameters**
+**Mandatory parameters**
 
 ```
 --t1
