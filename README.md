@@ -58,14 +58,16 @@ python predict_main.py [options]
 ```
 
 Threshold for the prediction of SUMOylation sites. This value could be either 
-"low", "medium", "high" or "none". If it is set to "none", tool will not return SUMOylation prediction results.
+"low", "medium", "high", "all" or "none". If it is set to "all", the tool will return all results of prediction, including all sites which scores are lower than "low" threshold. 
+If it is set to "none", the tool will not return SUMOylation prediction results.
 
 ```
 --t2
 ```
 
 Threshold for the prediction of SUMO-interaction motifs. This value could be either 
-"low", "medium", "high" or "none". If it is set to "none", tool will not return SUMO-interaction prediction results.
+"low", "medium", "high", "all" or "none". If it is set to "all", the tool will return all results of prediction, including all sites which scores are lower than "low" threshold. 
+If it is set to "none", tool will not return SUMO-interaction prediction results.
 
 ```
 -i
